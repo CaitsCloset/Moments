@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Your Baseball Moment</title>
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #1a1a1a;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        /* Styling for images */
+        .image-wrapper {
+            max-width: 100%;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        .image-wrapper img {
+            width: 100%;
+            height: auto;
+            display: block; /* Removes extra space below image */
+        }
+        /* Style for multiple images if added */
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #777;
+        }
+        .footer a {
+            color: #007aff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Your Baseball Photo Moment</h1>
+
+        <div class="image-wrapper">
+            <img src="https://via.placeholder.com/600x400.png?text=Your+Image+Here" alt="Baseball Moment">
+        </div>
+
+        <div class="footer">
+            <p>Want to add more of your favorite memories to this page? <br>
+            <a href="[YOUR_ETSY_UPSELL_LISTING_LINK_HERE]" target="_blank">Click here to add more photos for $4.99</a>
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>
